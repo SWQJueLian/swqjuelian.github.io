@@ -52,7 +52,7 @@ a {
 <body>
 <div id="update">
         <h3><font color='red'>本周更新日志</font></h3>
-<h2><font color='red'>如果你是进了触屏坑的机油，请在此次更新后刷入新的触屏补丁包，下载地址：<a href="http://pan.baidu.com/s/1i4kI11r">点我下载</a></font></h2>
+<h3><font color='red'>如果你是进了触屏坑的机油，请在此次更新后刷入新的触屏补丁包，下载地址：<a href="http://pan.baidu.com/s/1i4kI11r">点我下载</a></font></h3>
         <!-- li就是一个菜单,不用狂加无序列表....看你们的我也是醉了... -->
   		<ul>
 <li class='jle'>【小米云】</li>
