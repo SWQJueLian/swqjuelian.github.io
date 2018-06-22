@@ -50,7 +50,7 @@ setInterval(function () {
   
 
     // format countdown string + set tag value
-    if(days>=0){
+    if(days<0){
        Math.abs(days);
      
        Math.abs(hours);
