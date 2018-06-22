@@ -47,14 +47,28 @@ setInterval(function () {
     minutes = parseInt(seconds_left / 60);
 
     seconds = parseInt(seconds_left % 60);
-
-     
+  
 
     // format countdown string + set tag value
+    if(days>=0){
+       Math.abs(days);
+     
+       Math.abs(hours);
+     
+       Math.abs(minutes);
+     
+       Math.abs(seconds);
+     
+       countdown.innerHTML = '<font color="#fff">已经完成倒计时：</font><br>'+'<span class="days">' + days +  ' <b>日</b></span> <span class="hours">' + hours + ' <b>时</b></span> <span class="minutes">'
 
-    countdown.innerHTML = '<font color="#fff">距离蜕变：</font><br>'+'<span class="days">' + days +  ' <b>日</b></span> <span class="hours">' + hours + ' <b>时</b></span> <span class="minutes">'
+       + minutes + ' <b>分</b></span> <span class="seconds">' + seconds + ' <b>秒</b></span>';  
+    }else{
+        countdown.innerHTML = '<font color="#fff">距离蜕变：</font><br>'+'<span class="days">' + days +  ' <b>日</b></span> <span class="hours">' + hours + ' <b>时</b></span> <span class="minutes">'
 
-    + minutes + ' <b>分</b></span> <span class="seconds">' + seconds + ' <b>秒</b></span>';  
+       + minutes + ' <b>分</b></span> <span class="seconds">' + seconds + ' <b>秒</b></span>';  
+    }
+
+
 
  
 
